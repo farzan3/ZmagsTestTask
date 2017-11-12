@@ -13,7 +13,10 @@ Zmags Java Assigment Libarary is Powerfull Java Library that implimnets Followin
   - Bag.java
   
  # How to Use 
- Pakage name = " com.zmags.task "
+ 
+  Pakage name = " com.zmags.task "
+  
+  
 ### TriangleAnalyzer.java
 
 TriangleAnalyzer takes 3 interger as arugment (length of sides of triangles ) and return type of Triangle . Type Integers are following
@@ -37,12 +40,6 @@ FileAnalyzer is utility class that return K maximun occured word from file .It i
         //this class contains more overloaded constructor for Number of output and ignorecase
         //default result count is 10 and its case senstive ("Foo" and "foo" are not equal in 
         //default behavious)
- ## Deplyment
-        
-        //Build.cmd is added 
-        //open command promp run build.cmd and it will make jar 
-        //Import into project and start using library
-        
       
         FileAnalyzer analyzer = new FileAnalyzer("testfile.txt");
         
@@ -70,4 +67,9 @@ unit test are include in source code and almost try to cover all source code
 -   for task 1 we can return Enum as well my i return Int (Enum choose is good as well)
 -   for tas  2 I take asuumption by default we are trating words as case senstive but i write constrotor that make whole thing case insenstive
 
-
+# Deplyment
+        
+        //Build.cmd is added 
+        //open command promp run build.cmd and it will make jar 
+        //Import into project and start using library
+        
