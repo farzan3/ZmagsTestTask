@@ -13,6 +13,7 @@ Zmags Java Assigment Libarary is Powerfull Java Library that implimnets Followin
   - Bag.java
   
  # How to Use 
+ Pakage name = " com.zmags.task "
 ### TriangleAnalyzer.java
 
 TriangleAnalyzer takes 3 interger as arugment (length of sides of triangles ) and return type of Triangle . Type Integers are following
@@ -36,6 +37,12 @@ FileAnalyzer is utility class that return K maximun occured word from file .It i
         //this class contains more overloaded constructor for Number of output and ignorecase
         //default result count is 10 and its case senstive ("Foo" and "foo" are not equal in 
         //default behavious)
+ ## Deplyment
+        
+        //Build.cmd is added 
+        //open command promp run build.cmd and it will make jar 
+        //Import into project and start using library
+        
       
         FileAnalyzer analyzer = new FileAnalyzer("testfile.txt");
         
